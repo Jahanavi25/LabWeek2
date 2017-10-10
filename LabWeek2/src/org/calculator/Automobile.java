@@ -1,5 +1,5 @@
 package org.calculator;
-
+//calculating automobile prices
 public class Automobile {
 	private double range;
 	private int vin;
