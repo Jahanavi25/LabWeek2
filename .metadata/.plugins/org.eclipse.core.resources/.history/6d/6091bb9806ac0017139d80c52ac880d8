@@ -1,0 +1,24 @@
+package org.calculator;
+
+public class Automobile {
+	private double range;
+	private int vin;
+	private double basePrice;
+	private String color;
+	private String mName;
+	
+
+
+	public Automobile(double range, int vin, double basePrice, String color,
+			String mName) {
+		super();
+		this.range = range;
+		this.vin = vin;
+		this.basePrice = basePrice;
+		this.color = color;
+		this.mName = mName;
+	}
+	
+	
+
+}

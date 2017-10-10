@@ -1,0 +1,9 @@
+package org.files;
+
+public class TransactionRecord {
+	
+	private int accountNumber;
+	private double amount;
+	
+
+}

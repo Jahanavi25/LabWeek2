@@ -1,0 +1,10 @@
+package org.smaniulations;
+
+public class Compare {
+
+	public static void main(String[] args) {
+		System.out.println("to check if the given strings are same");
+
+	}
+
+}

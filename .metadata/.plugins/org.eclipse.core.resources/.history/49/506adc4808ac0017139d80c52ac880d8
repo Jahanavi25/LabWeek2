@@ -1,0 +1,8 @@
+package org.calculator;
+
+public class Diesel {
+	
+	private int nWheels;
+	
+
+}

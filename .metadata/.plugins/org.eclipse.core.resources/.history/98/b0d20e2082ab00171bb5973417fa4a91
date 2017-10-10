@@ -1,0 +1,12 @@
+package org.files;
+import java.io.Serializable;
+public class Account implements Serializable {
+	
+	private int account;
+	private String firstName;
+	private String lastName;
+	private double balance;
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package org.files;
+
+public class CreateData {
+	public static void main(String args[]){
+		TransactionRecord tr = new TransactionRecord(100,27.14);
+		TransactionRecord tr1 = new TransactionRecord(300,62.11);
+		TransactionRecord tr2 = new TransactionRecord(400,100.56);
+		TransactionRecord tr3 = new TransactionRecord(900,82.17);
+	}
+
+}

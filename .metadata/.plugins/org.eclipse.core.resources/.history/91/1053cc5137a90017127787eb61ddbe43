@@ -1,0 +1,45 @@
+package org.employee;
+
+public class CommissionEmployee extends Employee {
+
+	private double grossSales;
+	private double commissionRate;
+	
+	public CommissionEmployee(String firstName, String lastName, String socialSecurtiyNumber, double grossSales, double commissionRate){
+		super(firstName, lastName, socialSecurtiyNumber);
+		
+		if(commissionRate<=0.0 ||commissionRate>=1.0) //validating
+			throw new IllegalArgumentException();
+		this.commissionRate = commissionRate;
+		
+		if(grossSales<0.0) //validate
+			throw new IllegalArgumentException();
+		
+		this.grossSales= grossSales;
+		this.commissionRate = commissionRate;
+	}
+		
+		public void setGrossSales(double grossSales){
+			if(grossSales<0.0)
+				throw new IllegalArgumentException();
+			this.grossSales = grossSales;
+		}
+		
+		public double getgrossSales(){
+			return grossSales;
+		}
+			
+			
+	     public void setcommissionRate(double commissionRate){
+				if(commissionRate<0.0)
+					throw new IllegalArgumentException();
+				this.commissionRate = commissionRate;
+	     }
+	     
+	     public double getcommissionRate(){
+				return commissionRate;
+			}
+	
+	
+	
+}

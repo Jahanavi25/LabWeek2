@@ -1,0 +1,15 @@
+package org.calculator;
+
+import java.util.Date;
+
+public class Test {
+
+	public static void main(String[] args) throws VehicleOutOfRangeException {
+		// TODO Auto-generated method stub
+		
+		Standard s= new Standard(0,12,3000," black","ford",4,new Date());
+		Electric e = new Electric(1,76,15000,"white","chrysler",false,2);
+
+	}
+
+}

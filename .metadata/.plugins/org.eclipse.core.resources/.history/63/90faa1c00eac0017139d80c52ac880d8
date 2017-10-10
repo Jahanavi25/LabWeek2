@@ -1,0 +1,10 @@
+package org.calculator;
+
+public class SemiTruck extends Diesel {
+	
+	public SemiTruck(double range, int vin, double basePrice, String color, String mName,int nWheels, int cylinders) {
+		super(range,vin,basePrice,color,mName,nWheels,cylinders);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package org.employee;
+
+public class HourlyEmployee extends Employee{
+	
+	private double wage;
+	private double hours;
+	
+	public HourlyEmployee(String firstName,String lastName, String socialSecurityNumber, double wage, double hours){
+		
+		super(firstName,lastName,socialSecurityNumber);
+		
+		if(wage<0.0) // validating the wage
+			throw new illegalArgumentException("hourly wage must be >=0.0");
+	}
+
+}

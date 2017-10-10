@@ -1,0 +1,16 @@
+package org.calculator;
+
+import java.util.Date;
+
+public class Electric extends Automobile {
+	private boolean isTesla=false;
+	private int nBatteries;
+	
+	public Electric(double range, int vin, double basePrice, String color,
+			String mName, boolean isTesla, int nBatteries){
+		super(range,vin,basePrice,color,mName);
+		this.isTesla=isTesla;
+		this.nBatteries=nBatteries;
+		
+
+}

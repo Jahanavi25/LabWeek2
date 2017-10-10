@@ -1,0 +1,5 @@
+package org.files;
+import java.io.Serializable;
+public class Account implements Serializable {
+
+}

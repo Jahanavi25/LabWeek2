@@ -1,0 +1,16 @@
+package org.employee;
+
+public class CommissionEmployee extends Employee {
+
+	private double grossSales;
+	private double commissionRate;
+	
+	public CommissionEmployee(String firstName, String lastName, String socialSecurtiyNumber, String grossSales, double commissionRate){
+		super(firstName, lastName, socialSecurtiyNumber);
+		
+		if(commissionRate<0.0)
+			throw new IllegalArgumentException();
+		this.commissionRate = commissionRate;
+		
+	}
+}

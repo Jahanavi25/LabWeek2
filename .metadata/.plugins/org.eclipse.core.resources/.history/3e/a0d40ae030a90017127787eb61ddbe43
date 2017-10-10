@@ -1,0 +1,8 @@
+package org.employee;
+
+public class SalariedEmployee {
+	
+	private double weeklySalary;
+	
+
+}

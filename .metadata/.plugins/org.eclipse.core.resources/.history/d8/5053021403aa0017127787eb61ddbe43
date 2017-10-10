@@ -1,0 +1,23 @@
+package org.smaniulations;
+
+import java.util.Scanner;
+
+public class Compare {
+
+	public static void main(String[] args) {
+		System.out.println("to check if the given strings are same");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the first string");
+		String s1= scan.next();
+		System.out.println("Enter the second string");
+		String s2 = scan.next();
+		
+		System.out.printf("s1== s2 is" + (s1==s2));
+		System.out.println("\n s1.equals(s2) is"+(s1.equals(s2)));
+		
+		if(s1.equals(s2))
+			System.out.println("Given Strings are true");
+
+	}
+
+}

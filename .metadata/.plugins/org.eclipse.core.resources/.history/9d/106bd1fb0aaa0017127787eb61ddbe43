@@ -1,0 +1,17 @@
+package org.smaniulations;
+
+import java.util.Scanner;
+
+public class CaseFormat {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please give a String");
+		String s1 = input.nextLine();
+		System.out.println("Given string"+s1);
+		String s2 = s1.toUpperCase();
+		System.out.println("Given string in upper case letters: " +s2);
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package org.employee;
+
+public abstract class Employee {
+	
+	private final String firstName;
+	
+
+}

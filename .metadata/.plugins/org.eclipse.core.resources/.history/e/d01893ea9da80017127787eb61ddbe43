@@ -1,0 +1,54 @@
+package PackCodeExercises;
+
+public class Rectangle {
+	private float length;
+	private float width;
+	private float perimeter;
+	private float area;
+	
+	public Rectangle(float length, float width){
+		if(length<0.0||length>20.0){
+			throw new IllegalArgumentException("lenght must me inbetween 0.0 and 20.0");
+		}
+		if(width<0.0||width>0.0){
+			throw new IllegalArgumentException("width must be in between 0.0 and 20.0");
+		}
+		this.length= length;
+		this.width = width;
+		
+	}
+
+
+	public float getLength() {
+		return length;
+	}
+
+	void setLength(int length) {
+		this.length = length;
+	}
+
+	public float getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+	
+	public void setPerimeter(float perimeter){
+		perimeter = ((length)*2)+((width)*2);
+	}
+	
+	public float getperimeter(){
+		return perimeter;
+	}
+	
+	public void setarea(float area){
+		area = length*width;
+	}
+	
+	public float getarea(){
+		return area;
+	}
+
+}

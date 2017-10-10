@@ -1,0 +1,14 @@
+package org.calculator;
+
+public class Boat {
+	
+	BoatType bt;
+	private double range;
+	private int vin;
+	private double basePrice;
+	private String color;
+	private double luxuryTax;
+	
+	
+
+}

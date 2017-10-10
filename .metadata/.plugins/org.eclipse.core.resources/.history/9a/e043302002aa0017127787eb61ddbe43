@@ -1,0 +1,13 @@
+package org.smaniulations;
+
+import java.util.Scanner;
+
+public class Compare {
+
+	public static void main(String[] args) {
+		System.out.println("to check if the given strings are same");
+		Scanner scan = new Scanner(System.in);
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package org.handling;
+
+public class SomeClass {
+	
+	public SomeClass() throws Exception{
+		throw new Exception();
+	}
+
+	public static void main(String[] args) {
+        
+		try {
+			//@SuppressWarnings("unused");
+			SomeClass someclass = new SomeClass();
+		} catch (Exception exception) {
+		   System.out.println("Exception e:" +exception);
+		   exception.printStackTrace();
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package org.calculator;
+
+public class Diesel extends Automobile {
+	
+	private int nWheels;
+	private int cylinders;
+	public Diesel(double range, int vin, double basePrice, String color, String mName,int nWheels, int cylinders) {
+		super(range,vin,basePrice,color,mName);
+		this.nWheels = nWheels;
+		this.cylinders = cylinders;
+	}
+
+
+}

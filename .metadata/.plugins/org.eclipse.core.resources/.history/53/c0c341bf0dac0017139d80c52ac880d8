@@ -1,0 +1,6 @@
+package org.calculator;
+
+public class Electric {
+	private boolean isTesla=false;
+
+}

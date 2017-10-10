@@ -1,0 +1,8 @@
+package org.files;
+
+public class CreateData {
+	public static void main(String args[]){
+		TransactionRecord tr = new TransactionRecord(100,27.14);
+	}
+
+}

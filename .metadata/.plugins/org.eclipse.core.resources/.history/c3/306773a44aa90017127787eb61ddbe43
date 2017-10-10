@@ -1,0 +1,13 @@
+package org.employee;
+
+public class PayRollSystemTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SalariedEmployee salariedemployee = new SalariedEmployee("John","Smith","111-11-1111",800.0);
+		HourlyEmployee hourlyemployee = new HourlyEmployee("Karen","Price","222-22-2222",900.0);
+		
+
+	}
+
+}

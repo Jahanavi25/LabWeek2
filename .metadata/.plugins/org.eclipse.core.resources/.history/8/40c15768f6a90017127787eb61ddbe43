@@ -1,0 +1,21 @@
+package org.handling;
+
+public class SomeClass {
+	
+	public SomeClass() throws Exception{
+		throw new Exception();
+	}
+
+	public static void main(String[] args) {
+        
+		try {
+			SomeClass someclass = new SomeClass();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

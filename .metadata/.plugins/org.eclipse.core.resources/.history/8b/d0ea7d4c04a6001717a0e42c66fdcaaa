@@ -1,0 +1,10 @@
+package PackCodeExercises;
+
+public class TwoOneFour {
+	public static void main(String args[]){
+		System.out.println("Hi, Welcom to Java Programming");
+		
+		
+	}
+
+}

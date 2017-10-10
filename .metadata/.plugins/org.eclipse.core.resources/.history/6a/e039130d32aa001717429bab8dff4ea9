@@ -1,0 +1,9 @@
+package org.handling;
+
+public class ExceptionA extends Exception  {
+	
+	
+	ExceptionA e = new ExceptionA();
+	
+
+}

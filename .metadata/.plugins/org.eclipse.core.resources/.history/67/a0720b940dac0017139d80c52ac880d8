@@ -1,0 +1,15 @@
+package org.calculator;
+
+import java.util.Date;
+
+public class Standard extends Automobile{
+	
+	private int nSeats;
+	private Date eTest;
+	
+	public Standard(double range, int vin, double basePrice, String color,
+			String mName, int nSeats, Date eTest){
+		
+	}
+
+}

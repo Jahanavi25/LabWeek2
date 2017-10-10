@@ -1,0 +1,17 @@
+package enumerations;
+
+public enum TrafficLight {
+	
+	
+	
+	GREEN(3);
+	
+	
+	private final int time;
+	
+	TrafficLight(int time){
+		this.time = time;
+	}
+	
+
+}

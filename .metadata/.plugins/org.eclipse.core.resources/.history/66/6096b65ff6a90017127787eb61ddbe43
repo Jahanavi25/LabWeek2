@@ -1,0 +1,14 @@
+package org.handling;
+
+public class SomeClass {
+	
+	public SomeClass() throws Exception{
+		throw new Exception();
+	}
+
+	public static void main(String[] args) {
+        
+
+	}
+
+}

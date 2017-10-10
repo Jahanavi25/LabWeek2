@@ -1,0 +1,64 @@
+package org.files2;
+
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Formatter;
+import java.util.List;
+
+public class FileMatch {
+	
+	public static void main(String args[]) throws IOException, ClassNotFoundException{
+		
+		ObjectInputStream inOldMaster= new ObjectInputStream(Files.newInputStream(Paths.get("oldmast.ser")));
+		ObjectInputStream inTransaction= new ObjectInputStream(Files.newInputStream(Paths.get("trans.ser")));
+		
+		Formatter outlog = new Formatter("log.txt");
+
+		
+		/*List<Account> accounts = new ArrayList<Account>();
+		Account account=(Account)inOldMaster.readObject();
+		while(account!=null){
+	
+		accounts.add(account);
+		account=(Account)inOldMaster.readObject();
+		
+		}*/
+		
+		List<Account> accounts = new ArrayList<Account>();
+		accounts=(List <Account>)inOldMaster.readObject(); 
+		
+		List<TransactionRecord> trList = new ArrayList<TransactionRecord>();
+		trList=(List <TransactionRecord>)intransaction.readObject(); 
+		
+		TransactionRecord transaction=(TransactionRecord)inTransaction.readObject();
+		while(transaction!=null){
+			
+		boolean isAccountMatch=false;
+		for(Account account2: accounts){
+			if(account2.getAccount()==transaction.getAccountNumber()){
+				account2.combine(transaction);
+				isAccountMatch=true;
+			}
+		}	
+		if(!isAccountMatch){
+			outlog.format("%s %n", "Unmatched transaction record for account number.."+transaction.getAccountNumber());
+		}
+		}
+	
+	ObjectOutputStream outNewMaster = new ObjectOutputStream(Files.newOutputStream(Paths.get("newmast.ser")));
+	for(Account newAccount:accounts)
+		outNewMaster.writeObject(newAccount);
+	
+		
+		
+	}
+}
+		
+	
+
+

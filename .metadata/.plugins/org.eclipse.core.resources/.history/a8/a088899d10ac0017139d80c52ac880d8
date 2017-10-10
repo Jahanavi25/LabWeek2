@@ -1,0 +1,7 @@
+package org.calculator;
+
+public class VehicleOutOfRangeException extends Exception {
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package PackCodeExercises;
+
+public class Time2 {
+	private int hour;
+	private int minute;
+	private int second;
+
+}

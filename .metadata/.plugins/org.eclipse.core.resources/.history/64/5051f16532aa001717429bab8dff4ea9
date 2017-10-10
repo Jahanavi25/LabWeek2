@@ -1,0 +1,19 @@
+package org.handling;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		
+    try{
+    	throw new NullPointerException();
+    }
+	}
+
+}
+class ExceptionA extends Exception{
+	
+}
+
+class ExceptionB extends ExceptionA{
+	
+}

@@ -1,0 +1,15 @@
+package PackCodeExercises;
+
+public class FiveNine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* part a to check the errors of a bit */
+		int i;
+		for (i = 1; i<=100;i++){
+			System.out.println(i); /* As per the given syntax the loop is going infinite assuming the task to print 100 number */
+		}
+
+	}
+
+}

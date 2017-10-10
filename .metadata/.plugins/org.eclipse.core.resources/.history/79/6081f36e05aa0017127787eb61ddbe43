@@ -1,0 +1,12 @@
+package org.smaniulations;
+
+public class RandomSentences {
+
+	public static void main(String[] args) {
+		
+		String[] article = {"the", "a","one","some","many"};
+		
+
+	}
+
+}

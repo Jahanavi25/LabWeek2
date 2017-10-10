@@ -1,0 +1,36 @@
+package PackCodeExercises;
+
+import java.util.Scanner;
+
+public class FiveNine {
+
+	public static void main(String[] args) { 
+		int i;
+		//part a
+		for(i=1;i<=100;i++){
+			System.out.println(i);
+		} 
+		//part b
+		Scanner input = new Scanner(System.in);
+		int num = input.nextInt();
+		switch(num){
+		case 0: if(num%2==0){
+			System.out.println("given number is even");
+		}
+		case 1:if(num%2!=0){
+			System.out.println("given number is odd");
+			
+		}
+		}
+
+		//part c
+		int j;
+		for (j =19; j>=1; j--){
+			if(j%2!=0){
+				System.out.print(j+"\n");
+			}
+		}
+
+	}
+
+}

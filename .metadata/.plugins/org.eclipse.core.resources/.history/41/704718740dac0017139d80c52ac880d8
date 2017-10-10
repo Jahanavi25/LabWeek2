@@ -1,0 +1,10 @@
+package org.calculator;
+
+import java.util.Date;
+
+public class Standard extend Automobile{
+	
+	private int nSeats;
+	private Date eTest;
+
+}

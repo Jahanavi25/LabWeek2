@@ -1,0 +1,5 @@
+package org.handling;
+
+public class ExceptionA {
+
+}

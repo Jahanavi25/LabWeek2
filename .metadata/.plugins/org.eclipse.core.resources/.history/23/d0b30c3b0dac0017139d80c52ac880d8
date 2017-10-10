@@ -1,0 +1,8 @@
+package org.calculator;
+
+public class Standard {
+	
+	private int nSeats;
+	private date eTest;
+
+}

@@ -1,0 +1,14 @@
+package PackCodeExercises;
+
+public class TwoOneFour {
+	public static void main(String args[]){
+		System.out.println("Hi, Welcom to Java Programming");
+		int a = 1, b= 2, c= 3, d =4;
+		System.out.print(a);
+		System.out.print(b);
+		System.out.print(  c);
+		System.out.print(d);
+		
+	}
+
+}

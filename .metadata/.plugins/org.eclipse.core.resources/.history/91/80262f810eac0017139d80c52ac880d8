@@ -1,0 +1,6 @@
+package org.calculator;
+
+public class SemiTruck extends Diesel {
+	public Semitruck()
+
+}

@@ -1,0 +1,13 @@
+package org.handling;
+
+public class ExceptionA extends Exception  {
+	
+	
+	try{
+		throw new NullPointerException();
+	}
+	catch{
+		
+	}
+
+}

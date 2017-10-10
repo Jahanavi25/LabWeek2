@@ -1,0 +1,11 @@
+package org.handling;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class ExceptionA extends Exception

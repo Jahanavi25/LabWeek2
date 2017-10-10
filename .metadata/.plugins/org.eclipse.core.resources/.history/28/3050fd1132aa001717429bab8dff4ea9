@@ -1,0 +1,11 @@
+package org.handling;
+
+public class ExceptionB extends ExceptionA{
+	
+	
+	
+	
+	
+	
+
+}

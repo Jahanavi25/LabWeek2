@@ -1,0 +1,24 @@
+package PackCodeExercises;
+
+public class SavingsAccount {
+
+	 static double annualinterest;
+	 private double savingsbalance;
+	 
+	 public SavingsAccount(int savingsbalance){
+		 this.savingsbalance = savingsbalance;
+	 }
+	 
+	 public double monthlyinterest(){
+		 return (savingsbalance*annualinterest)/12;
+	 }
+	 
+	 public static void modifyInterestRate(double rate){
+		 annualinterest = rate;
+		 
+	 }
+		
+
+
+
+}

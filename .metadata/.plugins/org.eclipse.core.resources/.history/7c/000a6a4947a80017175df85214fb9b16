@@ -1,0 +1,15 @@
+package PackCodeExercises;
+
+public class SavingsAccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		SavingsAccount saver = new SavingsAccount(2000.0);
+		SavingsAccount.modifyInterestRate(4.0);
+		
+		System.out.printf("Balance for Saver1 = %.2f\nInterest Rate = %.2f\n\n",saver.getsavingsbalance()+saver.monthlyinterest()+saver.getannualinterest());
+
+	}
+
+}

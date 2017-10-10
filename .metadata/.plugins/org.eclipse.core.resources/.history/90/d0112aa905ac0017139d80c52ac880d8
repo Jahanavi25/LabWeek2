@@ -1,0 +1,12 @@
+package org.calculator;
+
+public class Automobile {
+	private double range;
+	private int vin;
+	private double basePrice;
+	private String color;
+	private String mName;
+	
+	
+
+}

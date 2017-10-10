@@ -1,0 +1,28 @@
+package org.handling;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		
+    try{
+    	throw new NullPointerException("NullPointerException");
+    }
+    catch(Exception e){
+    	System.out.println("Exception caugth is "+e.getMessage());
+    }
+    try{
+    	throw new ExceptionA();
+    }
+    catch(Exception e){
+    	System.out.println("Exception caugth is "+e.getMessage());
+    }
+	}
+
+}
+class ExceptionA extends Exception{
+	
+}
+
+class ExceptionB extends ExceptionA{
+	
+}

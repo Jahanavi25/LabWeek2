@@ -1,0 +1,10 @@
+package PackCodeExercises;
+
+public class SavingsAccount {
+
+	 static int annualinterest=1;
+		
+
+
+
+}

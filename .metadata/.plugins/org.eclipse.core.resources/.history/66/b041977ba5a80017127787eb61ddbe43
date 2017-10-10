@@ -1,0 +1,11 @@
+package enumerations;
+
+public class TrafficLightTest{
+	public static void main(String[] args){
+	
+	TrafficLight lights = null;
+	
+	System.out.println("GREEN LIGHT:"+lights.GREEN.getTime()+"MINUTES");
+
+}
+}

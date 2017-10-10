@@ -1,0 +1,23 @@
+package PackCodeExercises;
+
+public class FiveNine {
+
+	public static void main(String[] args) { 
+		int i;
+		//part a
+		/*for(i=1;i<=100;i++){
+			System.out.println(i);
+		} */
+		
+
+		//part c
+		
+		for (i =19; i>=1; i--){
+			if(i%2!=0){
+				System.out.print(i\n);
+			}
+		}
+
+	}
+
+}

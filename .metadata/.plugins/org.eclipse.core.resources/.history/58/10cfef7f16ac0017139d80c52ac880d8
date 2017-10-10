@@ -1,0 +1,8 @@
+package org.calculator;
+
+public class Boat {
+	
+	BoatType bt;
+	
+
+}

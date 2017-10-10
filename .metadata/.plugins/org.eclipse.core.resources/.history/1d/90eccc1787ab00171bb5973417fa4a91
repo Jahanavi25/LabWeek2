@@ -1,0 +1,15 @@
+package org.files;
+
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.util.Scanner;
+
+public class FileMatch {
+	
+	public static void main(String args[]) throws IOException{
+		
+		Scanner input= new Scanner(Paths.get("oldmast.txt"));
+		Scanner input1= new Scanner(Paths.get("trns.txt"));
+	}
+
+}

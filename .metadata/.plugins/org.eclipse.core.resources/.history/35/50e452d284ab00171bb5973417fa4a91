@@ -1,0 +1,25 @@
+package org.files;
+
+import java.util.Formatter;
+
+public class CreateData {
+	public static void main(String args[]){
+		TransactionRecord tr = new TransactionRecord(100,27.14);
+		TransactionRecord tr1 = new TransactionRecord(300,62.11);
+		TransactionRecord tr2 = new TransactionRecord(400,100.56);
+		TransactionRecord tr3 = new TransactionRecord(900,82.17);
+		
+		Account a = new Account(100,"Alan","Jones",348.17);
+		Account a1 = new Account(300,"Mary","Smith",27.19);
+		Account a2 = new Account(500,"sham","sharp",0.0);
+		Account a3 = new Account(700,"suzy","green",-14.22);
+		
+		Account[] ar =new Account[4];
+		
+		
+		Formatter outOldMaster = new Formatter("oldmast.txt");
+
+		outOldMaster.format("%d %s %s %.2f%n",account.getAccout(), account.getFirstName(), account.getLastName(), account.getBalance());
+	}
+
+}
